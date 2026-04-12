@@ -1,13 +1,18 @@
 [role='doc-toc'] {
   display: block;
-  margin-left: 0;
-  margin-right: 0;
+  margin: {
+    left: 0;
+    right: 0;
+  }
   padding: 0;
   [role='doc-pagelist'] {
-    list-style: none;
-    margin: 0.2em 0 0 1.2em; // indent
-    overflow: hidden;
-    padding: 0;
+    &,
+    & ol {
+      list-style: none;
+      margin: 0.2em 0 0 1.2em; // indent
+      overflow: hidden;
+      padding: 0;
+    }
     li {
       margin: 0;
       padding: 0 0 0 1.4em; // indent + 0.2em
@@ -40,7 +45,7 @@
         }
       }
     }
-    [role='doc-pagelist'] {
+    ol {
       margin: 0 0 0 0.2em;
     }
   }

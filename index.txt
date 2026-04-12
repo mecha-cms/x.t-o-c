@@ -6,7 +6,7 @@ color: '#f954ad'
 image: /lot/x/t-o-c/index.png
 author: Taufik Nurrohman
 type: Markdown
-version: 3.0.1
+version: 4.0.0
 ...
 
 This extension automatically displays a table of contents on top of the page content. It detects the presence of heading

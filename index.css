@@ -4,7 +4,8 @@
   margin-right: 0;
   padding: 0;
 }
-[role=doc-toc] [role=doc-pagelist] {
+[role=doc-toc] [role=doc-pagelist],
+[role=doc-toc] [role=doc-pagelist] ol {
   list-style: none;
   margin: 0.2em 0 0 1.2em;
   overflow: hidden;
@@ -40,7 +41,7 @@
 [role=doc-toc] [role=doc-pagelist] li:last-child::after {
   background: #fff;
 }
-[role=doc-toc] [role=doc-pagelist] [role=doc-pagelist] {
+[role=doc-toc] [role=doc-pagelist] ol {
   margin: 0 0 0 0.2em;
 }
 [role=doc-toc] [role=heading] {
